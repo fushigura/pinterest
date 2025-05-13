@@ -1,0 +1,142 @@
+/* === Навігація === */
+.navbar {
+    background-color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between; /* Замість центрування, розміщує елементи по краях */
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nav-left {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #333;
+    background: none;
+    border: none;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.nav-item.active {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center; /* Вирівнюємо по вертикалі */
+}
+
+.nav-right .username {
+    font-weight: bold;
+    font-size: 16px;
+    color: #28a745;
+    margin-right: 30px; /* Додаємо відступ справа */
+}
+
+/* === Центрування контенту === */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* Висота сторінки мінус навбар */
+    background-color: #f2f2f2;
+}
+
+/* === Форми === */
+.form-container {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-file,
+.input-text {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* === Кнопки === */
+.button {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+/* === Прев'ю зображення === */
+.image-preview {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* === Центрування === */
+.home-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+/* Додаткові стилі для кнопок навігації */
+.nav-item {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #333;
+    background: none;
+    border: none;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Відступ між кнопками */
+}

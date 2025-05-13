@@ -1,0 +1,76 @@
+/* Загальний фон */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* Центрування контейнера */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Картка форми */
+.form-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Заголовок */
+.form-card h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Поля вводу */
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Кнопка "Зареєструватись" */
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+/* Кнопка "Увійти" */
+.link-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #888;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.link-button:hover {
+    background-color: #666;
+}

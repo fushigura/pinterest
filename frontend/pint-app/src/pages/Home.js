@@ -87,7 +87,7 @@ const Home = () => {
             onClick={() => setActiveTab("find")}
             className={activeTab === "find" ? "nav-item active" : "nav-item"}
           >
-            Знайти фото
+            Знайти фото HELLO!
           </button>
           <button
             onClick={() => setActiveTab("add")}
